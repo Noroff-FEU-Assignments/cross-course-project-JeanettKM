@@ -14,24 +14,27 @@
     </p>
     <p id="web-security-answer">
       To make sure my client's website is secure i would advise to:
+      <p>- Never trust data from the browser, always sanitize data and always assume the worst</p>
     </p>
-    <p>- To only show the last four digits of potential creditcards</p>
+    <p>- To only show the last four digits of potential creditcards, only store and display needed data</p>
     <p>
-      - Implement a automatic timeout if the user had been inactive after a
+      - Implement a automatic timeout if the user has been inactive after a
       period of time, normally this is made by backend developers, but as
       frontend developers we have to take this into consideration with the API.
     </p>
     <p>
       - Sanatising all datapackages to avoid security threats and SQL injection,
-      this can be done manually or via a trusted third party Solution
+      this can be done manually or via a trusted Third Party Solution
     </p>
     <p>
       - Requiring a long user password which includes numbers, small and capital
-      letters. Aditionally you can add a authenticator.
+      letters. Aditionally you can add a two-factor authenticator.
     </p>
     <p>
       - Use a CI/CD tool which will automatically look through any new changes
       and flag anything that doesnt pass the checks it goes through
     </p>
+    <p>- Configure the web browser to use both HTTPS and HSTS</p>
+    <P>- Take use of Vulnerability scanning tools</P>
   </body>
 </html>
